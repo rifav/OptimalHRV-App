@@ -8,7 +8,7 @@ import 'info.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  cameras = await availableCameras();
+  //cameras = await availableCameras();
   runApp(const MaterialApp(
     home: MyApp(),
   ));
